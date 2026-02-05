@@ -3,51 +3,15 @@ import { Button } from "@/components/ui/button"
 
 export function TeamPreview() {
   const teamMembers = [
-    {
-      name: "Mohamed Taha AFIF",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQGp4d8kPPU7Jw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729615086399?e=1740614400&v=beta&t=kPXqCYZxYGxb8oCvHqqJBZp2WgTBhw3KqpQh3QEf7Ic",
-    },
-    {
-      name: "Hadir TALEB",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHn7kKMKWzOtQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719841046662?e=1740614400&v=beta&t=4z0j-QL5nJdx8jzTuQ3DQZ2HVPzvqPmj9OlpBNNWZ_s",
-    },
-    {
-      name: "Amine MAHDANE",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQFIy49JKMBhqg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700413726134?e=1740614400&v=beta&t=Y5RYzSiQLLAy6TgZBPSZJeB-RV3gHKFBKwYuZBD3qnM",
-    },
-    {
-      name: "Sara EL AKEL",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHUUT3i0KgvQw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725618399117?e=1740614400&v=beta&t=bv0Qv4xFy8LCXLyp4Hy_1iKS21fN6POXP7bvpYXZRhs",
-    },
-    {
-      name: "Yassir AMAZOUZ",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHYzHYC0IuZxA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721078668867?e=1740614400&v=beta&t=1DgXhSpcRLhTdR_7hPc6dS4N9_YmIVy1P-DEmPJUj84",
-    },
-    {
-      name: "Ahmed CHAHLAOUI",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQHj_vwIabdEuQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725707569965?e=1740614400&v=beta&t=sIpVMRHTk-S9jcvWOWBq2MzQZZS5-Z6HiMfx3vYqxko",
-    },
-    {
-      name: "Aymane MAAITAT",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQGFrEI5YYVJzA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722027488127?e=1740614400&v=beta&t=ZHf7Yz9RzB0bXqEbQeN2PxRZVg8W8N0GGH_OIVQFU5o",
-    },
-    {
-      name: "Khalil ELAZRI",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQGN81WBTkMMNg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1717855831686?e=1740614400&v=beta&t=qvwcEBwb_4vAoC03t3B0vt6a5V9ksVLHQqIuOZZVNxI",
-    },
-    {
-      name: "Mouad ZEMZOUMI",
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E03AQGU-eXoXsb98A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1719774952929?e=1740614400&v=beta&t=q05fUd7dHoU4SjqhMCDCbNkFKjIMy_9fzEuXt4raqmc",
-    },
+    { name: "Mohamed Taha AFIF", image: "/male-physicist-professor.jpg" },
+    { name: "Hadir TALEB", image: "/male-physicist-professor.jpg" },
+    { name: "Amine MAHDANE", image: "/male-physicist-professor.jpg" },
+    { name: "Sara EL AKEL", image: "/male-physicist-professor.jpg" },
+    { name: "Yassir AMAZOUZ", image: "/male-physicist-professor.jpg" },
+    { name: "Ahmed CHAHLAOUI", image: "/male-physicist-professor.jpg" },
+    { name: "Aymane MAAITAT", image: "/male-physicist-professor.jpg" },
+    { name: "Khalil ELAZRI", image: "/male-physicist-professor.jpg" },
+    { name: "Mouad ZEMZOUMI", image: "/male-physicist-professor.jpg" },
   ]
 
   return (
