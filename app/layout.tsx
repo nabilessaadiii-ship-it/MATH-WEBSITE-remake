@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "FMA | Feynman Moroccan Adventure - Camp de Physique",
   description:
     "Camp d'été intensif en physique pour lycéens marocains. 6 jours d'immersion scientifique au Lycée Mohammed VI, Benguerir. Cours, ateliers et conférences avec des experts internationaux.",
-  generator: "v0.app",
   keywords: ["physique", "camp d'été", "lycéens", "Maroc", "sciences", "éducation", "Math&Maroc", "FMA", "Feynman"],
   icons: {
     icon: "/favicon.ico",
