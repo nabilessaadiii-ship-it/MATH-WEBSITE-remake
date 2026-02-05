@@ -17,19 +17,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
+        url: "/favicon.svg",
         type: "image/svg+xml",
       },
     ],
-    shortcut: "/favicon.ico",
     apple: "/apple-icon.png",
   },
 }
@@ -42,8 +33,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="shortcut icon" href="/icon-light-32x32.png" />
-        <link rel="icon" href="/icon-light-32x32.png" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className={`font-sans antialiased`}>
