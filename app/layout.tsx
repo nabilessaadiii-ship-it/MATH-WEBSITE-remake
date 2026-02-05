@@ -15,12 +15,7 @@ export const metadata: Metadata = {
   generator: "v0.app",
   keywords: ["physique", "camp d'été", "lycéens", "Maroc", "sciences", "éducation", "Math&Maroc", "FMA", "Feynman"],
   icons: {
-    icon: [
-      {
-        url: "/favicon.svg",
-        type: "image/svg+xml",
-      },
-    ],
+    icon: "/favicon.ico",
     apple: "/apple-icon.png",
   },
 }
@@ -33,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
       </head>
       <body className={`font-sans antialiased`}>
