@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
+      </head>
       <body className={`font-sans antialiased`}>
         <ScrollToTop />
         {children}
-        <Analytics />
-      html>
+      </body>
+    </html>
   )
 }
