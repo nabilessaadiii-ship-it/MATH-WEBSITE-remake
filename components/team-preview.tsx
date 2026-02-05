@@ -3,15 +3,15 @@ import { Button } from "@/components/ui/button"
 
 export function TeamPreview() {
   const teamMembers = [
-    { name: "Mohamed Taha AFIF", image: "/male-physicist-professor.jpg" },
-    { name: "Hadir TALEB", image: "/male-physicist-professor.jpg" },
-    { name: "Amine MAHDANE", image: "/male-physicist-professor.jpg" },
-    { name: "Sara EL AKEL", image: "/male-physicist-professor.jpg" },
-    { name: "Yassir AMAZOUZ", image: "/male-physicist-professor.jpg" },
-    { name: "Ahmed CHAHLAOUI", image: "/male-physicist-professor.jpg" },
-    { name: "Aymane MAAITAT", image: "/male-physicist-professor.jpg" },
-    { name: "Khalil ELAZRI", image: "/male-physicist-professor.jpg" },
-    { name: "Mouad ZEMZOUMI", image: "/male-physicist-professor.jpg" },
+    { name: "Mohamed Taha AFIF", image: "/placeholder-user.jpg" },
+    { name: "Hadir TALEB", image: "/placeholder-user.jpg" },
+    { name: "Amine MAHDANE", image: "/placeholder-user.jpg" },
+    { name: "Sara EL AKEL", image: "/placeholder-user.jpg" },
+    { name: "Yassir AMAZOUZ", image: "/placeholder-user.jpg" },
+    { name: "Ahmed CHAHLAOUI", image: "/placeholder-user.jpg" },
+    { name: "Aymane MAAITAT", image: "/placeholder-user.jpg" },
+    { name: "Khalil ELAZRI", image: "/placeholder-user.jpg" },
+    { name: "Mouad ZEMZOUMI", image: "/placeholder-user.jpg" },
   ]
 
   return (
